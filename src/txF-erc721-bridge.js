@@ -2,8 +2,8 @@ import { TransactionBuilder, Server, Networks, Operation, Asset, Memo } from 'st
 import BigNumber from 'bignumber.js';
 
 const bridgePK = STELLAR_NETWORK === 'PUBLIC'
-    ? 'public secret'
-    : 'testnet secret'
+    ? 'mainnet'
+    : 'testnet'
 
 const server = new Server(HORIZON_URL);
 const NFT_AMOUNT = '0.0000001';
