@@ -1,0 +1,20 @@
+[
+    {
+        "name": "param0",
+        "type": "string",
+        "description": "",
+        "rule": "Required"
+    },
+    {
+        "name": "param1",
+        "type": "number",
+        "description": "",
+        "rule": "Optional"
+    },
+    {
+        "name": "param2",
+        "type": "boolean",
+        "description": "",
+        "rule": "Optional"
+    }
+]
